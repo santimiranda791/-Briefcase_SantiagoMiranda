@@ -1,288 +1,392 @@
-*{
+* {
     margin: 0;
 }
-header{
+@media (max-width: 575.98px) {  
+header {
     display: flex;
     width: 96%;
     height: 50vh;
     background-color: #000000;
     border: 1vh solid #0620cd;
-} 
-header .photo-header{
+}
+
+header .photo-header {
     flex-direction: column;
-    margin-top:10vh;
+    margin-top: 10vh;
     width: 50%;
     align-items: center;
 }
-header .photo-header img{
- width: 20vh;
- height: 25vh;
+
+header .photo-header img {
+    width: 20vh;
+    height: 25vh;
 }
-header .photo-header h1{
+
+header .photo-header h1 {
     font-size: 2.5vh;
     width: 20vh;
     height: 20vh;
     text-align: center;
     color: #ffff;
-   }
-   header .description{
+}
+
+header .description {
     flex-direction: column;
     width: 60%;
     align-items: center;
 }
-header .description h2{
+
+header .description h2 {
     margin-top: 2vh;
- font-size: 2.5vh;
- text-align: center;
- color: #ffff;
-}
-header .description p{
     font-size: 2.5vh;
+    text-align: center;
+    color: #ffff;
+}
+
+header .description p {
+    font-size: 2.2vh;
     margin-top: 3vh;
     text-align: center;
     color: #ffff;
-   }
-   .projects .title-projects{
+}
+
+.projects .title-projects {
     margin-top: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-   }
-.projects h2{
+}
+
+.projects h2 {
     text-align: center;
-}  
-.projects hr{
+}
+
+.projects hr {
     text-align: center;
     width: 20vh;
     border-bottom: solid #0620cd;
-}    
-.projects .projects-squares{
+}
+
+.projects .projects-squares {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.projects .project-1 img{
+
+.projects .project-1 img {
     margin-top: 2vh;
     width: 20vh;
     height: 18vh;
     padding: 2vh;
-    
+
 }
-.projects .project-1{
+
+.projects .project-1 {
     display: flex;
     flex-direction: row;
     margin-top: 2vh;
-    width: 45vh;
+    width: 42vh;
     height: 25vh;
     border: solid #0620cd;
     background-color: #000000;
 }
-.projects .project-1 .description-project{
+
+.projects .project-1 .description-project {
     display: flex;
     flex-direction: column;
     margin-top: 2vh;
     margin-left: 3vh;
     text-align: center;
-    font-size: 2vh;
-    color: #ffff;
-}
-.projects .project-2 img{
-    margin-top: 2vh;
-    width: 20vh;
-    height: 18vh;
-    padding: 2vh;
-    
-}
-.projects .project-2{
-    display: flex;
-    flex-direction: row;
-    margin-top: 2vh;
-    width: 45vh;
-    height: 25vh;
-    border: solid #0620cd;
-    background-color: #000000;
-}
-.projects .project-2 .description-project{
-    display: flex;
-    flex-direction: column;
-    margin-top: 2vh;
-    margin-left: 3vh;
-    text-align: center;
-    font-size: 2vh;
+    font-size: 1.9vh;
     color: #ffff;
 }
 
-.projects .project-3 img{
+.projects .project-2 img {
     margin-top: 2vh;
     width: 20vh;
     height: 18vh;
     padding: 2vh;
-    
+
 }
-.projects .project-3{
+
+.projects .project-2 {
     display: flex;
     flex-direction: row;
     margin-top: 2vh;
-    width: 45vh;
+    width: 42vh;
     height: 25vh;
     border: solid #0620cd;
     background-color: #000000;
 }
-.projects .project-3 .description-project{
+
+.projects .project-2 .description-project {
     display: flex;
     flex-direction: column;
     margin-top: 2vh;
     margin-left: 3vh;
     text-align: center;
-    font-size: 2vh;
+    font-size: 1.9vh;
     color: #ffff;
 }
 
-.projects .project-4 img{
+.projects .project-3 img {
     margin-top: 2vh;
     width: 20vh;
     height: 18vh;
     padding: 2vh;
-    
+
 }
-.projects .project-4{
+
+.projects .project-3 {
     display: flex;
     flex-direction: row;
     margin-top: 2vh;
-    width: 45vh;
+    width: 42vh;
     height: 25vh;
     border: solid #0620cd;
     background-color: #000000;
 }
-.projects .project-4 .description-project{
+
+.projects .project-3 .description-project {
     display: flex;
     flex-direction: column;
     margin-top: 2vh;
     margin-left: 3vh;
     text-align: center;
-    font-size: 2vh;
+    font-size: 1.9vh;
     color: #ffff;
 }
-.projects a{
+
+.projects .project-4 img {
+    margin-top: 2vh;
+    width: 20vh;
+    height: 18vh;
+    padding: 2vh;
+
+}
+
+.projects .project-4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    width: 42vh;
+    height: 25vh;
+    border: solid #0620cd;
+    background-color: #000000;
+}
+
+.projects .project-4 .description-project {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    margin-left: 3vh;
+    text-align: center;
+    font-size: 1.9vh;
+    color: #ffff;
+}
+
+.projects a {
     text-decoration: none;
 }
-.projects .bottom-git{
-        background-color: #000000;
-        border: solid #0620cd;
-        border-radius: 20px;
-        padding: 12px 10px;
-        width: 50%;
-        text-align: center;
-        text-decoration: none;
-        color: #ffff;
-        margin-left: 10vh ;
-        margin-top: 3vh;
-        cursor: pointer;
+
+.projects .bottom-git {
+    background-color: #000000;
+    border: solid #0620cd;
+    border-radius: 20px;
+    padding: 12px 10px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 10vh;
+    margin-top: 3vh;
+    cursor: pointer;
 }
-.projects .bottom-git:hover{
+
+.projects .bottom-git:hover {
     background-color: #0620cd;
     border: solid #000000;
     color: #000000;
 }
-.references .title-references{
+
+.references .title-references {
     margin-top: 3vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-   }
-.references h2{
+}
+
+.references h2 {
     text-align: center;
-}  
-.references hr{
+}
+
+.references hr {
     text-align: center;
     width: 20vh;
     border-bottom: solid #0620cd;
-}    
-.references .references-squares{
+}
+
+.references .references-squares {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.references .reference-1{
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-    .references .reference-1 p{
-        font-size: 3vh;
-        margin-top: 2vh;
-        margin-left: 2vh;
-    }
-    .references .reference-2{
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-    .references .reference-2 p{
-        font-size: 3vh;
-        margin-top: 2vh;
-        margin-left: 2vh;
-    }
 
-    .references .reference-3{
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-    .references .reference-3 p{
-        font-size: 3vh;
-        margin-top: 2vh;
-        margin-left: 2vh;
-    }
+.references .reference-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 2vh;
+    width: 40vh;
+    height: 25vh;
+    border: solid #0620cd;
+    background-color: #000000;
+    color: #ffff;
+}
 
-    .references .reference-4{
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-    .references .reference-4 p{
-        font-size: 3vh;
-        margin-top: 2vh;
-        margin-left: 2vh;
-    }
-    .experiences .title-experiences{
-        margin-top: 4vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       }
-    .experiences h2{
-        text-align: center;
-    }  
-    .experiences hr{
-        text-align: center;
-        width: 20vh;
-        border-bottom: solid #0620cd;
-    }    
+.references .reference-1 p {
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
 
+.references .reference-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 2vh;
+    width: 40vh;
+    height: 25vh;
+    border: solid #0620cd;
+    background-color: #000000;
+    color: #ffff;
+}
 
+.references .reference-2 p {
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
 
+.references .reference-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 2vh;
+    width: 40vh;
+    height: 25vh;
+    border: solid #0620cd;
+    background-color: #000000;
+    color: #ffff;
+}
+
+.references .reference-3 p {
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+.references .reference-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 2vh;
+    width: 40vh;
+    height: 25vh;
+    border: solid #0620cd;
+    background-color: #000000;
+    color: #ffff;
+}
+
+.references .reference-4 p {
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+.experiences .title-experiences {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experiences h2 {
+    text-align: center;
+}
+
+.experiences hr {
+    text-align: center;
+    width: 20vh;
+    border-bottom: solid #0620cd;
+}
+.experiences .experiences-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+progress::-webkit-progress-bar {
+    background-color: #000000;
+}
+progress::-webkit-progress-value {
+    background-color: #0620cd;
+}
+.experiences .experiences-bar .experience-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+.experiences .experiences-bar .experience-1 img {
+   height:20vh;
+   border-radius: 2vh;
+   border: solid #000000;
+}
+.experiences .experiences-bar .experience-1 progress {
+    height:3vh;
+    border: solid #000000;
+    margin-top: 3vh;
+ }
+ .experiences .experiences-bar .experience-1 p {
+    font-size: 4vh;
+    text-align: center;
+ }
+ .experiences .experiences-bar .experience-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+ .experiences .experiences-bar .experience-2 img {
+    height:25vh;
+    border-radius: 2vh;
+    border: solid #000000;
+ }
+ .experiences .experiences-bar .experience-2 progress {
+     height:3vh;
+     border: solid #000000;
+     margin-top: 3vh;
+    
+  }
+  .experiences .experiences-bar .experience-2 p {
+     font-size: 4vh;
+     text-align: center;
+  }
+  .experiences .experiences-bar .experience-3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+  .experiences .experiences-bar .experience-3 img {
+    height:20vh;
+    border-radius: 2vh;
+    border: solid #000000;
+ }
+ .experiences .experiences-bar .experience-3 progress {
+     height:3vh;
+     border: solid #000000;
+     margin-top: 3vh;
+  }
+  .experiences .experiences-bar .experience-3 p {
+     font-size: 4vh;
+     text-align: center;
+  }
+}
