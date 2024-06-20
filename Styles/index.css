@@ -237,7 +237,7 @@
         align-items: center;
     }
 
-    .references .reference-1 {
+    .references .reference {
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -249,66 +249,11 @@
         color: #ffff;
     }
 
-    .references .reference-1 p {
+    .references .reference p {
         font-size: 3vh;
         margin-top: 2vh;
         margin-left: 2vh;
     }
-
-    .references .reference-2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-2 p {
-        font-size: 3vh;
-        margin-top: 2vh;
-        margin-left: 2vh;
-    }
-
-    .references .reference-3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-3 p {
-        font-size: 3vh;
-        margin-top: 2vh;
-        margin-left: 2vh;
-    }
-
-    .references .reference-4 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-4 p {
-        font-size: 3vh;
-        margin-top: 2vh;
-        margin-left: 2vh;
-    }
-
     .experiences .title-experiences {
         margin-top: 4vh;
         display: flex;
@@ -678,7 +623,7 @@
         margin: 2vw;
     }
 
-    .references .reference-1 {
+    .references .reference {
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -691,65 +636,12 @@
         margin-right: 2vh;
     }
 
-    .references .reference-1 p {
+    .references .reference p {
         font-size: 1.5vh;
         margin-top: 1.5vh;
         margin-left: 2vh;
     }
 
-    .references .reference-2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-2 p {
-        font-size: 1.5vh;
-        margin-top: 1.5vh;
-        margin-left: 2vh;
-    }
-
-    .references .reference-3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-3 p {
-        font-size: 1.5vh;
-        margin-top: 1.5vh;
-        margin-left: 2vh;
-    }
-
-    .references .reference-4 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-4 p {
-        font-size: 3vh;
-        margin-top: 2vh;
-        margin-left: 2vh;
-    }
 
     .experiences .title-experiences {
         margin-top: 4vh;
@@ -1009,6 +901,11 @@
         border: solid #0620cd;
         background-color: #000000;
         margin-right: 2vw;
+        transition: transform .2s;
+    }
+
+    .projects .project-1:hover {
+        transform: scale(1.2);
     }
 
     .projects .project-1 .description-project {
@@ -1036,6 +933,11 @@
         height: 20vh;
         border: solid #0620cd;
         background-color: #000000;
+        transition: transform .2s;
+    }
+
+    .projects .project-2:hover {
+        transform: scale(1.2);
     }
 
     .projects .project-2 .description-project {
@@ -1064,6 +966,11 @@
         border: solid #0620cd;
         background-color: #000000;
         margin-right: 2vw;
+        transition: transform .2s;
+    }
+
+    .projects .project-3:hover {
+        transform: scale(1.2);
     }
 
     .projects .project-3 .description-project {
@@ -1091,6 +998,11 @@
         height: 20vh;
         border: solid #0620cd;
         background-color: #000000;
+        transition: transform .2s;
+    }
+
+    .projects .project-4:hover {
+        transform: scale(1.2);
     }
 
     .projects .project-4 .description-project {
@@ -1153,7 +1065,7 @@
         margin: 2vw;
     }
 
-    .references .reference-1 {
+    .references .reference {
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -1164,67 +1076,18 @@
         background-color: #000000;
         color: #ffff;
         margin-right: 2vh;
+        transition: transform .2s;
+    }
+    .references .reference:hover {
+        transform: scale(1.2);
     }
 
-    .references .reference-1 p {
+    .references .reference p {
         font-size: 1.5vh;
         margin-top: 1.5vh;
         margin-left: 2vh;
     }
 
-    .references .reference-2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-2 p {
-        font-size: 1.5vh;
-        margin-top: 1.5vh;
-        margin-left: 2vh;
-    }
-
-    .references .reference-3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-3 p {
-        font-size: 1.5vh;
-        margin-top: 1.5vh;
-        margin-left: 2vh;
-    }
-
-    .references .reference-4 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-4 p {
-        font-size: 3vh;
-        margin-top: 2vh;
-        margin-left: 2vh;
-    }
 
     .experiences .title-experiences {
         margin-top: 4vh;
@@ -1267,8 +1130,11 @@
         flex-direction: column;
         margin-top: 4vh;
         margin-right: 10vh;
+        transition: transform .2s;
     }
-
+    .experiences .experiences-bar .experience-1:hover{
+        transform: scale(1.2);
+    }
     .experiences .experiences-bar .experience-1 img {
         width: 20vh;
         height: 20vh;
@@ -1293,8 +1159,11 @@
         flex-direction: column;
         margin-top: 4vh;
         margin-right: 10vh;
+        transition: transform .2s;
     }
-
+    .experiences .experiences-bar .experience-2:hover{
+        transform: scale(1.2);
+    }
     .experiences .experiences-bar .experience-2 img {
         width: 20vh;
         height: 20vh;
@@ -1320,8 +1189,11 @@
         flex-direction: column;
         margin-top: 4vh;
         margin-right: 10vh;
+        transition: transform .2s;
     }
-
+    .experiences .experiences-bar .experience-3:hover{
+        transform: scale(1.2);
+    }
     .experiences .experiences-bar .experience-3 img {
         width: 20vh;
         height: 20vh;
@@ -1345,8 +1217,11 @@
         display: flex;
         flex-direction: column;
         margin-top: 4vh;
+        transition: transform .2s;
     }
-
+    .experiences .experiences-bar .experience-4:hover{
+        transform: scale(1.2);
+    }
     .experiences .experiences-bar .experience-4 img {
         width: 20vh;
         height: 20vh;
@@ -1485,6 +1360,11 @@
         border: solid #0620cd;
         background-color: #000000;
         margin-right: 2vw;
+        transition: transform .2s;
+    }
+
+    .projects .project-1:hover {
+        transform: scale(1.2);
     }
 
     .projects .project-1 .description-project {
@@ -1512,6 +1392,11 @@
         height: 20vh;
         border: solid #0620cd;
         background-color: #000000;
+        transition: transform .2s;
+    }
+
+    .projects .project-2:hover {
+        transform: scale(1.2);
     }
 
     .projects .project-2 .description-project {
@@ -1540,6 +1425,11 @@
         border: solid #0620cd;
         background-color: #000000;
         margin-right: 2vw;
+        transition: transform .2s;
+    }
+
+    .projects .project-3:hover {
+        transform: scale(1.2);
     }
 
     .projects .project-3 .description-project {
@@ -1567,6 +1457,11 @@
         height: 20vh;
         border: solid #0620cd;
         background-color: #000000;
+        transition: transform .2s;
+    }
+
+    .projects .project-4:hover {
+        transform: scale(1.2);
     }
 
     .projects .project-4 .description-project {
@@ -1631,7 +1526,7 @@
         margin: 2vw;
     }
 
-    .references .reference-1 {
+    .references .reference {
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -1642,68 +1537,16 @@
         background-color: #000000;
         color: #ffff;
         margin-right: 2vh;
+        transition: transform .2s;
     }
-
-    .references .reference-1 p {
+    .references .reference:hover{
+        transform: scale(1.2);
+    }
+    .references .reference p {
         font-size: 1.5vh;
         margin-top: 1.5vh;
         margin-left: 2vh;
     }
-
-    .references .reference-2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-2 p {
-        font-size: 1.5vh;
-        margin-top: 1.5vh;
-        margin-left: 2vh;
-    }
-
-    .references .reference-3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-3 p {
-        font-size: 1.5vh;
-        margin-top: 1.5vh;
-        margin-left: 2vh;
-    }
-
-    .references .reference-4 {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-top: 2vh;
-        width: 40vh;
-        height: 25vh;
-        border: solid #0620cd;
-        background-color: #000000;
-        color: #ffff;
-    }
-
-    .references .reference-4 p {
-        font-size: 3vh;
-        margin-top: 2vh;
-        margin-left: 2vh;
-    }
-
     .experiences .title-experiences {
         margin-top: 4vh;
         display: flex;
@@ -1745,8 +1588,11 @@
         flex-direction: column;
         margin-top: 4vh;
         margin-right: 10vh;
+        transition: transform .2s;
     }
-
+    .experiences .experiences-bar .experience-1:hover{
+        transform: scale(1.2);
+    }
     .experiences .experiences-bar .experience-1 img {
         width: 20vh;
         height: 20vh;
@@ -1771,8 +1617,11 @@
         flex-direction: column;
         margin-top: 4vh;
         margin-right: 10vh;
+        transition: transform .2s;
     }
-
+    .experiences .experiences-bar .experience-2:hover{
+        transform: scale(1.2);
+    }
     .experiences .experiences-bar .experience-2 img {
         width: 20vh;
         height: 20vh;
@@ -1798,8 +1647,11 @@
         flex-direction: column;
         margin-top: 4vh;
         margin-right: 10vh;
+        transition: transform .2s;
     }
-
+    .experiences .experiences-bar .experience-3:hover{
+        transform: scale(1.2);
+    }
     .experiences .experiences-bar .experience-3 img {
         width: 20vh;
         height: 20vh;
@@ -1823,8 +1675,11 @@
         display: flex;
         flex-direction: column;
         margin-top: 4vh;
+        transition: transform .2s;
     }
-
+    .experiences .experiences-bar .experience-4:hover{
+        transform: scale(1.2);
+    }
     .experiences .experiences-bar .experience-4 img {
         width: 20vh;
         height: 20vh;
